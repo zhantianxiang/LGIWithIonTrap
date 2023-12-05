@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Experimental Study on Leggett-Garg Inequality with Trapped-ion System}
+\author{Tianxiang Zhan}
+\date{December 2023}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{epstopdf}%EPS转pdf
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+One of the most counterintuitive features of quantum mechanics is the superposition of quantum states \citep{glauber1963quantum}. In 1935, Schrödinger extended the superposition from the micro world to the macro world through the thought experiment of Schrödinger’s cat. However, it seems to contradict the fact that objects in our daily life are always in a certain state. According to this contradiction, in 1985, Leggett and Garg proposed the Leggett-Garg inequality (LGI) based on two fundamental assumptions of the macro world \citep{leggett1985quantum}: (A1) Macroscopic realism (MR): A macroscopic system is always in one of the macroscopically distinct states; (A2) Noninvasive measurability (NIM) at the macroscopic level: A determination method can be found that does not affect the past and the future of the system. Because these two assumptions are invalid in quantum mechanics, quantum systems may violate the LGI.
+
+\section{Experimental Setup}
+In this work, the LGI test is demonstrated using a single calcium ion trapped in a blade linear Paul trap. The ion needs to be cooled first. The cooling schemes used in our experiment include Doppler cooling, electromagnetically
+induced transparency (EIT) cooling, and sideband cooling. After the whole cooling process, the mean phonon number of the ion can be brought down below 0.1. In addition, we trigger the experimental sequence synchronized to the 50-Hz frequency to prevent noise from the power supply.
+
+\section{Conclusion}
+We have realized the LGI test in a three-level trapped-ion system, and obtained K3 under the LSUR and the VSUR, respectively, which are consistent with the theoretical predictions. We directly compared the upper bound of LGI under two state update rules in the same experimental system. We adopted the model of a large spin precession in the magnetic field, and experimentally obtained a significant violation under the VSUR, which benefits from the high-fidelity operations and long coherence time of the trapped-ion system. As shown in Figure \ref {ExperimentalResults}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{fig_5}
+\caption{Experimental results}
+\label{ExperimentalResults}
+\end{figure}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
